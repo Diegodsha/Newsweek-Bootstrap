@@ -1,9 +1,13 @@
+@import url("tablet.css") screen and (min-width: 768px);
+@import url("desktop.css") screen and (min-width: 992px);
 
-@import url("tablet.css") screen and (min-width: 768px); 
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
 
 .navbar {
   height: 50px;
-  background-color: #f42;
+  background-color: #f72210;
   margin-top: 65px;
 }
 .logo-img {
@@ -31,7 +35,3 @@
 .menu-icon {
   color: #f7c4c1;
 }
-
-
-
-

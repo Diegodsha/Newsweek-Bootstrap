@@ -1,8 +1,6 @@
 body {
-    background-color: #ffe404;
-  }
-  .btns-container {
-    height: 38px;
-  }
-
-  
+  /* background-color: #ffe404; */
+}
+.subscribe-btn {
+  height: 99px;
+}

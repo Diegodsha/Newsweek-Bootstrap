@@ -20,17 +20,18 @@
       integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com"> <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="styles/style.css" />
     <title>Newsweek</title>
   </head>
   <body>
-    <div class="container-fluid">
+    <div class="container-fluid container-lg ">
         <nav class="row navbar">
-            <div class="col-lg-3 d-none d-lg-block">date</div>
-            <div class="col-8">
+            <div class=" date col-lg-3 d-none d-lg-block order-lg-1">Wed, Jan 20, 2021</div>
+            <div class="col-5 col-sm-8 col-lg-auto order-lg-2">
         <img class="logo-img" src="assets/Newsweek_Logo.svg" alt="logo" />
     </div>
-    <div class="col-4 btns-container">
+    <div class="col-7 col-sm-4 col-lg-3 btns-container  order-lg-3">
         <div class="row align-items-center justify-content-end">
             <div class="user-icon g-0 col-2 d-md-none"><i class="fas fa-user"></i></div>
           <div class="login-icon g-0 col-2 d-none d-md-block fw-bold">LOGIN</i></div>
@@ -41,7 +42,44 @@
             </div>
         </div>
     </div>
-</nav>
+  </nav>
+  <div class="row bottom-nav  d-none d-lg-block">
+    <div class="col-12">
+      <div class="row 1bottom-nav justify-content-between">
+        <div class="col-11 align-items-center p-0">
+          
+          <ul class="list-items-1botttom-nav d-flex justify-content-between p-0 mt-2 ">
+            <li class="leaf"><a href="#" >U.S.</a></li>
+            <li class="leaf "><a href="#">World</a></li>
+            <li class="leaf "><a href="#">Business</a></li>
+            <li class="leaf "><a href="#">Tech &amp; Science</a></li>
+            <li class="leaf "><a href="#">Culture</a></li>
+            <li class="leaf "><a href="#">Newsgeek</a></li>
+            <li class="leaf "><a href="#">Sports</a></li>
+            <li class="leaf "><a href="#">Health</a></li>
+            <li class="leaf "><a href="#">The Debate</a></li>
+            <li class="leaf "><a href="#">Experts</a></li>
+            <li class="leaf "><a href="#">Vantage</a></li>
+            <li><a href="#">Search</a></li>
+            <li> <ahref="#"><i class="fas fa-search"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col align-items-center">
+          
+        <ul class="list-items-2botttom-nav d-flex justify-content-start p-0 mt-2 ">
+          <li class="leaf"><a href="#">TRENDING</a></li>
+          <li class="leaf "><a class="text-muted"  href="#">JOE BIDEN</a></li>
+          <li class="leaf "><a class="text-muted"  href="#">DONALD TRUMP</a></li>
+          <li class="leaf "><a class="text-muted"  href="#">INAUGURATION</a></li>
+          <li class="leaf "><a class="text-muted"  href="#">CORONAVIRUS</a></li>
+          <li class="leaf "><a class="text-muted"  href="#">STIMULUS</a></li>
+          <li class="leaf "><a class="text-muted"  href="#">PACKAGE</a></li>
+          <li class="leaf "><a class="text-muted"  href="#">VACCINE</a></li>
+          <li class="leaf  "><a class="text-muted" href="#">CAPITOL RIOTS</a></li>
+      </div>
+    </div>
+  </div>
 <main class="container"></main>
 <footer class="row"></footer>
 </div>
