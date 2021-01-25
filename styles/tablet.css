@@ -31,3 +31,18 @@
 .menu-icon {
   color: #f7c4c1;
 }
+
+.link-nw svg{
+  width: 236px;
+  fill: #f72210;
+}
+
+.link-nw span{
+  font-size: 12px;
+}
+
+.editions-links li,
+.about-links li {
+  border-right: 1px solid #d9d9d9;
+  padding-left: 20px;
+}

@@ -6,3 +6,40 @@ body {
   font-family: "Roboto Condensed", sans-serif;
 }
 
+.main-container{
+  height: 300px;
+ }
+
+.main-footer{
+  height: 200px;
+}
+
+.social-links-footer{
+  display: flex;
+  list-style: none;
+}
+
+.social-links-footer li{
+  padding-right: 25px;
+}
+
+.social-links-footer i{
+ color: #666;
+}
+
+.editions-links,
+.about-links
+{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.editions-links li,
+.about-links li {
+  padding-right: 20px;
+}
+
+.link-nw{
+  text-decoration: none;
+}
