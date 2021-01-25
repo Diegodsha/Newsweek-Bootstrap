@@ -1,13 +1,12 @@
 
 .navbar {
-  height: 50px;
+  height: 95px;
   background-color: #f72210;
   margin-top: 65px;
 }
-.logo-img {
 
+.logo-img {
   height: 82px;
- 
 }
 
 .login-icon {
@@ -15,7 +14,6 @@
   margin-right: 35px;
   font-size: 18px;
 }
-
 
 .subscribe-btn {
   color: #000;
@@ -32,15 +30,13 @@
 .menu-icon {
   color: #f7c4c1;
 }
+
 .container-lg {
   max-width: 1310px;
 }
+
 .date {
   color: #fff;
-}
-
-.navbar {
-  height: 95px;
 }
 
 .bottom-nav {
@@ -51,6 +47,7 @@
 .list-items-2botttom-nav {
   list-style: none;
 }
+
 .list-items-1botttom-nav li {
   border-left: 1px solid #d9d9d9;
   padding: 0 10px;
@@ -72,11 +69,10 @@
   padding-left: 20px;
 }
 
-.link-nw svg{
+.link-nw svg {
   width: 236px;
   fill: #f72210;
 }
-
 
 .editions-links li,
 .about-links li {

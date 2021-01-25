@@ -6,30 +6,29 @@ body {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-.main-container{
+.main-container {
   height: 300px;
- }
+}
 
-.main-footer{
+.main-footer {
   height: 200px;
 }
 
-.social-links-footer{
+.social-links-footer {
   display: flex;
   list-style: none;
 }
 
-.social-links-footer li{
+.social-links-footer li {
   padding-right: 25px;
 }
 
-.social-links-footer i{
- color: #666;
+.social-links-footer i {
+  color: #666;
 }
 
 .editions-links,
-.about-links
-{
+.about-links {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
@@ -40,6 +39,6 @@ body {
   padding-right: 20px;
 }
 
-.link-nw{
+.link-nw {
   text-decoration: none;
 }
