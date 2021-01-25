@@ -1,0 +1,31 @@
+
+.navbar {
+    height: 50px;
+    background-color: #f72210;
+    margin-top: 65px;
+  }
+  .logo-img {
+    width: 130px;
+    height: 30px;
+  }
+  
+  .login-icon {
+    color: #fff;
+    margin-right: 35px;
+  }
+  
+  .subscribe-btn {
+    color: #000;
+    background-color: #ffe404;
+    border-radius: 24px;
+    border: #ffe404;
+    font-weight: bold;
+    width: 92px;
+    height: 24px;
+    font-size: 10px;
+  }
+  
+  .user-icon,
+  .menu-icon {
+    color: #f7c4c1;
+  }

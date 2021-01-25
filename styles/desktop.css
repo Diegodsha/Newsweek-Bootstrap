@@ -1,3 +1,36 @@
+
+.navbar {
+  height: 50px;
+  background-color: #f72210;
+  margin-top: 65px;
+}
+.logo-img {
+ 
+  height: 82px;
+}
+
+.login-icon {
+  color: #fff;
+  margin-right: 35px;
+  font-size: 18px;
+}
+
+
+.subscribe-btn {
+  color: #000;
+  background-color: #ffe404;
+  border-radius: 24px;
+  border: #ffe404;
+  font-weight: bold;
+  width: 127px;
+  height: 37px;
+  font-size: 18px;
+}
+
+.user-icon,
+.menu-icon {
+  color: #f7c4c1;
+}
 .container-lg {
   max-width: 1310px;
 }
