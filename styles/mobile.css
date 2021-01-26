@@ -2,7 +2,6 @@
 .navbar {
   height: 50px;
   background-color: #f72210;
-  margin-top: 65px;
 }
 
 .logo-img {
@@ -11,8 +10,13 @@
 }
 
 .login-icon {
-  color: #fff;
+ 
   margin-right: 35px;
+}
+.logo-img-nav{
+  fill: white;
+  height: 35px;
+  width: 160px;
 }
 
 .subscribe-btn {
@@ -38,4 +42,8 @@
 
 .link-nw span {
   font-size: 12px;
+}
+
+.icons-bar{
+  padding: 0 10px 0 10px;
 }

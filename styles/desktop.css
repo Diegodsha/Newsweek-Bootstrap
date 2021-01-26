@@ -2,15 +2,20 @@
 .navbar {
   height: 95px;
   background-color: #f72210;
-  margin-top: 65px;
+  
 }
 
 .logo-img {
   height: 82px;
 }
 
+.logo-img-nav{
+  height: 60px;
+  fill: white;
+}
+
 .login-icon {
-  color: #fff;
+ 
   margin-right: 35px;
   font-size: 18px;
 }
@@ -22,8 +27,10 @@
   border: #ffe404;
   font-weight: bold;
   width: 127px;
-  height: 37px;
+  line-height: 15px;
   font-size: 18px;
+  margin-right: 14px;
+  margin-left: 10px;
 }
 
 .user-icon,
