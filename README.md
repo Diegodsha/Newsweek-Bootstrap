@@ -4,7 +4,7 @@
 
 > Microverse project about using BOOTSTRAP to make a responsive web design copy of the page NEWSWEEK
 
-![screenshot](assets/NewsweekScreenshot.png)
+![Screenshot from 2021-01-26 16-52-25](https://user-images.githubusercontent.com/70416006/105916703-fa3fa280-5ff6-11eb-8b88-b4d52dffdb46.png)
 
 In this project we implement Bootstrap properties to properly give position
 and style to the elements and make it look as similiar as possible to the main page.
@@ -17,7 +17,7 @@ and style to the elements and make it look as similiar as possible to the main p
 
 ## Live Demo
 
-[Live Demo Link](https://github.com/Diegodsha/Newsweek-Bootstrap)
+[Live Demo Link](https://diegodsha.github.io/Newsweek-Bootstrap/)
 
 ## Authors
 
