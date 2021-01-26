@@ -9,16 +9,15 @@ a {
   text-decoration: none;
 }
 
-.main-container {
+/* .main-container {
   height: 300px;
-}
+} */
 
 .main-footer {
   height: 200px;
 }
 
 .social-links-footer {
- 
   list-style: none;
 }
 
@@ -52,10 +51,10 @@ a {
   text-decoration: none;
 }
 
-.search-logo{
+.search-logo {
   margin-left: 10px;
 }
 
-.lbl-edition{
+.lbl-edition {
   padding-left: 10px;
 }
