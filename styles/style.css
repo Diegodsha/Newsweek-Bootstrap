@@ -6,6 +6,7 @@ body {
   font-family: "Roboto Condensed", sans-serif;
   background-color: #f4f5f6;
 }
+
 a {
   text-decoration: none;
 }
@@ -83,6 +84,15 @@ a {
   color: #000;
 }
 
+.author-name {
+  color: #000;
+}
+
+.stories-h3 {
+  font-size: 17px;
+  line-height: 20px;
+}
+
 .feature-h3:hover,
 .title:hover,
 .author-name:hover,
@@ -107,10 +117,6 @@ a {
 
 .title a {
   font-size: 17px;
-  color: #000;
-}
-
-.author-name {
   color: #000;
 }
 
@@ -145,7 +151,8 @@ a {
   display: block;
   width: 29px;
   height: 28px;
-  background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg)
+  background:
+    url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg)
     center/contain no-repeat #f72210;
   margin-right: 10px;
 }
@@ -190,9 +197,4 @@ article {
 
 .more-stories {
   padding-top: 30px;
-}
-
-.stories-h3 {
-  font-size: 17px;
-  line-height: 20px;
 }
