@@ -4,14 +4,11 @@
 
 body {
   font-family: "Roboto Condensed", sans-serif;
+  background-color: #f4f5f6;
 }
 a {
   text-decoration: none;
 }
-
-/* .main-container {
-  height: 300px;
-} */
 
 .main-footer {
   height: 200px;
@@ -57,4 +54,145 @@ a {
 
 .lbl-edition {
   padding-left: 10px;
+}
+
+.feature-h2,
+.top-story-h2 {
+  font-size: 16px;
+}
+
+.art-img {
+  position: relative;
+  min-height: 33px;
+  margin-bottom: 10px;
+}
+
+.category {
+  font-size: 17px;
+  color: #f72210;
+  padding: 8px 15px 9px;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.feature-h3 {
+  font-size: 24px;
+  line-height: 24px;
+  color: #000;
+}
+
+.feature-h3:hover,
+.title:hover,
+.author-name:hover,
+.stories-h3:hover {
+  text-decoration: underline;
+  text-decoration-color: #f72210;
+  color: #000;
+}
+
+.featured-stories,
+.featured-politics,
+.featured-debate {
+  position: sticky;
+  top: 20px;
+}
+
+.summary {
+  font-size: 15px;
+  line-height: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title a {
+  font-size: 17px;
+  color: #000;
+}
+
+.author-name {
+  color: #000;
+}
+
+.versus {
+  width: 32px;
+  height: 32px;
+  background-color: #000;
+  color: #d6d6d6;
+  border-radius: 50%;
+  text-align: center;
+  margin: 6px auto;
+}
+
+.debate-item1,
+.debate-item2 {
+  padding: 15px 0;
+}
+
+.signup {
+  max-width: 300px;
+  margin: 0 auto 30px;
+  border: 1px solid #e5e5e5;
+  background-color: #f4f5f6;
+  padding: 20px;
+}
+
+.form-signup label {
+  display: flex;
+}
+
+.icon-n {
+  display: block;
+  width: 29px;
+  height: 28px;
+  background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg)
+    center/contain no-repeat #f72210;
+  margin-right: 10px;
+}
+
+.form-submit {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: #f61602;
+  border-radius: 3px;
+  margin-top: 5px;
+}
+
+article {
+  padding-bottom: 20px;
+}
+
+.info {
+  padding: 20px;
+}
+
+.text-primary {
+  padding-left: 20px;
+  font-size: 17px;
+  padding-bottom: 9px;
+}
+
+.sponsor {
+  padding-bottom: 30px;
+}
+
+.more-stories-items .image {
+  margin-bottom: 10px;
+  margin-right: 15px;
+}
+
+.more-stories-items,
+.debate-item {
+  border-top: 1px solid rgb(175, 171, 171);
+  padding: 14px 0;
+}
+
+.more-stories {
+  padding-top: 30px;
+}
+
+.stories-h3 {
+  font-size: 17px;
+  line-height: 20px;
 }
