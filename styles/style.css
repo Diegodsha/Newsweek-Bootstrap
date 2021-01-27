@@ -225,3 +225,25 @@ article {
 .img-magazine{
   height: 190px;
 }
+
+.img-card1{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.img-card2{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.card-container{
+  height: 241px;
+  
+}
+
+.img-newsletter{
+  background: url(https://web.archive.org/web/20210120113503if_/https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5) center center / cover no-repeat;
+  height: 288px;
+}
