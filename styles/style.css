@@ -83,6 +83,11 @@ a {
   line-height: 24px;
   color: #000;
 }
+.magazine-h3 {
+  font-size: 18px;
+  line-height: 18px;
+  text-align: left;
+}
 
 .author-name {
   color: #000;
@@ -93,6 +98,7 @@ a {
   line-height: 20px;
 }
 
+.magazine-h3:hover,
 .feature-h3:hover,
 .title:hover,
 .author-name:hover,
@@ -173,6 +179,19 @@ article {
 .info {
   padding: 20px;
 }
+.info-magazine {
+  padding: 10px;
+  text-align: center;
+}
+
+.magazine-span{
+  padding: 15px 0;
+}
+
+.magazine-span span{
+  margin-right: 15px;
+  padding: 5px;
+}
 
 .text-primary {
   padding-left: 20px;
@@ -197,4 +216,12 @@ article {
 
 .more-stories {
   padding-top: 30px;
+}
+
+.magazine {
+  padding-bottom: 30px;
+}
+
+.img-magazine{
+  height: 190px;
 }
