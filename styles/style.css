@@ -70,7 +70,6 @@ a {
 
 .category {
   font-size: 17px;
-  color: #f72210;
   padding: 8px 15px 9px;
   background-color: rgba(255, 255, 255, 0.9);
   position: absolute;
@@ -123,14 +122,13 @@ a {
 
 .title a {
   font-size: 17px;
-  color: #000;
+  
 }
 
 .versus {
   width: 32px;
   height: 32px;
   background-color: #000;
-  color: #d6d6d6;
   border-radius: 50%;
   text-align: center;
   margin: 6px auto;
@@ -163,7 +161,7 @@ a {
 }
 
 .form-submit {
-  color: white;
+
   text-transform: uppercase;
   font-weight: bold;
   background: #f61602;
@@ -221,9 +219,6 @@ article {
   padding-bottom: 30px;
 }
 
-/* .img-magazine {
-  height: 190px;
-} */
 
 .img-card1 {
   position: relative;
