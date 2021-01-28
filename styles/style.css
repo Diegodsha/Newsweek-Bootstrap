@@ -239,3 +239,12 @@ article {
   color: #000;
   transition: all 2s ease-in-out;
 }
+
+.art-img {
+  width: 100%;
+  transition: width, 150ms ease-out;
+}
+
+.art-img:hover {
+  width: 350px;
+}
