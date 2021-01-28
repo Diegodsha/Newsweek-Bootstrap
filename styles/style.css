@@ -11,10 +11,6 @@ a {
   text-decoration: none;
 }
 
-.social-links-footer {
-  list-style: none;
-}
-
 .social-links-footer li {
   padding-left: 15px;
 }
@@ -24,11 +20,8 @@ a {
   font-size: 26px;
 }
 
-.editions-links,
-.about-links {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
+.social-links-footer i:hover {
+  color: #3b5998;
 }
 
 .editions-links li,
@@ -37,15 +30,6 @@ a {
   padding-right: 20px;
   margin-right: 20px;
   padding-left: 0;
-}
-
-.editions-links a,
-.about-links a {
-  text-decoration: none;
-}
-
-.link-nw {
-  text-decoration: none;
 }
 
 .search-logo {
@@ -79,17 +63,12 @@ a {
 .feature-h3 {
   font-size: 24px;
   line-height: 24px;
-  color: #000;
 }
 
 .magazine-h3 {
   font-size: 18px;
   line-height: 18px;
   text-align: left;
-}
-
-.author-name {
-  color: #000;
 }
 
 .stories-h3 {
@@ -104,13 +83,11 @@ a {
 .stories-h3:hover {
   text-decoration: underline;
   text-decoration-color: #f72210;
-  color: #000;
 }
 
 .featured-stories,
 .featured-politics,
 .featured-debate {
-  position: sticky;
   top: 20px;
 }
 
@@ -146,12 +123,7 @@ a {
   padding: 20px;
 }
 
-.form-signup label {
-  display: flex;
-}
-
 .icon-n {
-  display: block;
   width: 29px;
   height: 28px;
   background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg)
@@ -160,8 +132,6 @@ a {
 }
 
 .form-submit {
-  text-transform: uppercase;
-  font-weight: bold;
   background: #f61602;
   border-radius: 3px;
   margin-top: 5px;
@@ -177,7 +147,6 @@ article {
 
 .info-magazine {
   padding: 10px;
-  text-align: center;
 }
 
 .magazine-span {
@@ -219,13 +188,11 @@ article {
 }
 
 .img-card1 {
-  position: relative;
   top: 0;
   left: 0;
 }
 
 .img-card2 {
-  position: absolute;
   bottom: 0;
   right: 0;
 }

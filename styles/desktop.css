@@ -18,11 +18,9 @@
 }
 
 .subscribe-btn {
-  color: #000;
   background-color: #ffe404;
   border-radius: 24px;
   border: #ffe404;
-  font-weight: bold;
   width: 127px;
   line-height: 15px;
   font-size: 18px;
@@ -43,28 +41,17 @@
   height: 98px;
 }
 
-.list-items-1botttom-nav,
-.list-items-2botttom-nav {
-  list-style: none;
-}
-
 .list-items-1botttom-nav li {
   border-left: 1px solid #d9d9d9;
   padding: 0 10px;
 }
 
 .list-items-1botttom-nav a {
-  text-decoration: none;
-  font-weight: bold;
   font-size: 1rem;
-  color: #000;
 }
 
 .list-items-2botttom-nav a {
-  text-decoration: none;
-  font-weight: bold;
   font-size: 16px;
-  color: #000;
   margin-right: 5px;
   padding-left: 20px;
 }
