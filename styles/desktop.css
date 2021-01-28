@@ -74,16 +74,14 @@
   fill: #f72210;
 }
 
-.editions-links li,
-.about-links li {
-  border-right: 1px solid #d9d9d9;
-  padding-left: 20px;
-}
-
 .img-magazine {
   height: 290px;
 }
 
 .img-short {
   height: 192px;
+}
+
+.subscribe-container {
+  height: 292px;
 }

@@ -45,15 +45,17 @@
   font-size: 12px;
 }
 
-.editions-links li,
-.about-links li {
-  border-right: 1px solid #d9d9d9;
-  padding-left: 20px;
-}
-
 .cpy-right-footer {
   font-size: 12px;
   line-height: 12px;
   text-transform: uppercase;
   color: #666;
+}
+
+.subscribe-container {
+  height: 357px;
+}
+
+.subscribe-legend {
+  position: relative;
 }

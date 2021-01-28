@@ -1,4 +1,3 @@
-
 .navbar {
   height: 50px;
   background-color: #f72210;
@@ -46,4 +45,13 @@
 
 .icons-bar {
   padding: 0 10px 0 10px;
+}
+
+.subscribe-container {
+  height: 357px;
+}
+
+.subscribe-legend {
+  top: 57%;
+  position: absolute;
 }

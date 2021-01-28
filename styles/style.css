@@ -11,10 +11,6 @@ a {
   text-decoration: none;
 }
 
-.main-footer {
-  height: 200px;
-}
-
 .social-links-footer {
   list-style: none;
 }
@@ -37,7 +33,10 @@ a {
 
 .editions-links li,
 .about-links li {
+  border-right: 1px solid #d9d9d9;
   padding-right: 20px;
+  margin-right: 20px;
+  padding-left: 0;
 }
 
 .editions-links a,
@@ -155,8 +154,7 @@ a {
   display: block;
   width: 29px;
   height: 28px;
-  background:
-    url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg)
+  background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg)
     center/contain no-repeat #f72210;
   margin-right: 10px;
 }
@@ -242,8 +240,7 @@ article {
 }
 
 .img-newsletter {
-  background:
-    url(https://web.archive.org/web/20210120113503if_/https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5)
+  background: url(https://web.archive.org/web/20210120113503if_/https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5)
     center center / cover no-repeat;
   height: 288px;
 }
