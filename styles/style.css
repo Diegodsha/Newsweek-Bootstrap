@@ -126,8 +126,7 @@ a {
 .icon-n {
   width: 29px;
   height: 28px;
-  background:
-    url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg)
+  background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg)
     center/contain no-repeat #f72210;
   margin-right: 10px;
 }
@@ -208,8 +207,35 @@ article {
 }
 
 .img-newsletter {
-  background:
-    url(https://web.archive.org/web/20210120113503if_/https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5)
+  background: url(https://web.archive.org/web/20210120113503if_/https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5)
     center center / cover no-repeat;
   height: 288px;
+}
+
+.logo-img-nav {
+  transition: transform 500ms ease-in-out;
+}
+
+.logo-img-nav {
+  transform: rotate(360deg);
+}
+
+.subscribe-btn {
+  width: 127px;
+  height: 37px;
+  color: #000;
+  transition: width, height, 2s ease-in-out;
+}
+
+.subscribe-btn:hover {
+  width: 200px;
+  height: 37px;
+  font-size: 30px;
+  color: white;
+}
+
+.login-icon {
+  font-size: 30px;
+  color: #000;
+  transition: all 2s ease-in-out;
 }
