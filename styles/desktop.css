@@ -1,0 +1,74 @@
+.navbar {
+  height: 95px;
+  background-color: #f72210;
+}
+
+.logo-img {
+  height: 82px;
+}
+
+.logo-img-nav {
+  height: 60px;
+  fill: white;
+}
+
+.login-icon {
+  margin-right: 35px;
+  font-size: 18px;
+}
+
+.subscribe-btn {
+  background-color: #ffe404;
+  border-radius: 24px;
+  border: #ffe404;
+  width: 127px;
+  line-height: 15px;
+  font-size: 18px;
+  margin-right: 14px;
+  margin-left: 10px;
+}
+
+.user-icon,
+.menu-icon {
+  color: #f7c4c1;
+}
+
+.container-lg {
+  max-width: 1310px;
+}
+
+.bottom-nav {
+  height: 98px;
+}
+
+.list-items-1botttom-nav li {
+  border-left: 1px solid #d9d9d9;
+  padding: 0 10px;
+}
+
+.list-items-1botttom-nav a {
+  font-size: 1rem;
+}
+
+.list-items-2botttom-nav a {
+  font-size: 16px;
+  margin-right: 5px;
+  padding-left: 20px;
+}
+
+.link-nw svg {
+  width: 236px;
+  fill: #f72210;
+}
+
+.img-magazine {
+  height: 260px;
+}
+
+.img-short {
+  height: 192px;
+}
+
+.subscribe-container {
+  height: 292px;
+}

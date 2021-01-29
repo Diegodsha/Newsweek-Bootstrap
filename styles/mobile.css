@@ -1,0 +1,57 @@
+.navbar {
+  height: 50px;
+  background-color: #f72210;
+}
+
+.logo-img {
+  width: 130px;
+  height: 30px;
+}
+
+.login-icon {
+  margin-right: 35px;
+}
+
+.logo-img-nav {
+  fill: white;
+  height: 35px;
+  width: 130px;
+}
+
+.subscribe-btn {
+  /* color: #000; */
+  background-color: #ffe404;
+  border-radius: 24px;
+  border: #ffe404;
+  font-weight: bold;
+  width: 92px;
+  height: 24px;
+  font-size: 10px;
+}
+
+.user-icon,
+.menu-icon {
+  color: #f7c4c1;
+}
+
+.link-nw svg {
+  width: 236px;
+  fill: #f72210;
+}
+
+.link-nw span {
+  font-size: 12px;
+}
+
+.icons-bar {
+  padding: 0 10px 0 10px;
+}
+
+.subscribe-container {
+  height: 357px;
+}
+
+.subscribe-legend {
+  top: 57%;
+  position: absolute;
+}
